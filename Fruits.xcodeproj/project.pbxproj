@@ -12,6 +12,9 @@
 		FAF763262845FBF300D20999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF763252845FBF300D20999 /* Assets.xcassets */; };
 		FAF763292845FBF300D20999 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF763282845FBF300D20999 /* Preview Assets.xcassets */; };
 		FAF763302846A40B00D20999 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FAF7632F2846A40B00D20999 /* README.md */; };
+		FAF763342846B8DE00D20999 /* FruitCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF763332846B8DE00D20999 /* FruitCardView.swift */; };
+		FAF763372846BDC500D20999 /* FruitsData.txt in Resources */ = {isa = PBXBuildFile; fileRef = FAF763362846BDC500D20999 /* FruitsData.txt */; };
+		FAF763392846BE9300D20999 /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF763382846BE9300D20999 /* StartButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		FAF763252845FBF300D20999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAF763282845FBF300D20999 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAF7632F2846A40B00D20999 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FAF763332846B8DE00D20999 /* FruitCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCardView.swift; sourceTree = "<group>"; };
+		FAF763362846BDC500D20999 /* FruitsData.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FruitsData.txt; sourceTree = "<group>"; };
+		FAF763382846BE9300D20999 /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +60,9 @@
 		FAF763202845FBF100D20999 /* Fruits */ = {
 			isa = PBXGroup;
 			children = (
-				FAF763212845FBF100D20999 /* FruitsApp.swift */,
-				FAF763232845FBF100D20999 /* ContentView.swift */,
+				FAF763352846BDC500D20999 /* Data */,
+				FAF763322846B8B200D20999 /* View */,
+				FAF763312846B8A200D20999 /* App */,
 				FAF763252845FBF300D20999 /* Assets.xcassets */,
 				FAF763272845FBF300D20999 /* Preview Content */,
 			);
@@ -68,6 +75,32 @@
 				FAF763282845FBF300D20999 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAF763312846B8A200D20999 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FAF763212845FBF100D20999 /* FruitsApp.swift */,
+				FAF763232845FBF100D20999 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FAF763322846B8B200D20999 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAF763332846B8DE00D20999 /* FruitCardView.swift */,
+				FAF763382846BE9300D20999 /* StartButtonView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAF763352846BDC500D20999 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FAF763362846BDC500D20999 /* FruitsData.txt */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +164,7 @@
 				FAF763302846A40B00D20999 /* README.md in Resources */,
 				FAF763292845FBF300D20999 /* Preview Assets.xcassets in Resources */,
 				FAF763262845FBF300D20999 /* Assets.xcassets in Resources */,
+				FAF763372846BDC500D20999 /* FruitsData.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +175,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF763342846B8DE00D20999 /* FruitCardView.swift in Sources */,
+				FAF763392846BE9300D20999 /* StartButtonView.swift in Sources */,
 				FAF763242845FBF100D20999 /* ContentView.swift in Sources */,
 				FAF763222845FBF100D20999 /* FruitsApp.swift in Sources */,
 			);
