@@ -26,6 +26,10 @@
 		FAF7634C284758CC00D20999 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7634B284758CC00D20999 /* SettingsRowView.swift */; };
 		FAF7634E2847592A00D20999 /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7634D2847592A00D20999 /* FruitDetailView.swift */; };
 		FAF763502847594C00D20999 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF7634F2847594C00D20999 /* SettingsView.swift */; };
+		FAF7635528475B7900D20999 /* Setting.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF7635128475B7900D20999 /* Setting.png */; };
+		FAF7635628475B7900D20999 /* FruitsView.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF7635228475B7900D20999 /* FruitsView.png */; };
+		FAF7635728475B7900D20999 /* Detail.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF7635328475B7900D20999 /* Detail.png */; };
+		FAF7635828475B7900D20999 /* Onbarding.png in Resources */ = {isa = PBXBuildFile; fileRef = FAF7635428475B7900D20999 /* Onbarding.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +53,10 @@
 		FAF7634B284758CC00D20999 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
 		FAF7634D2847592A00D20999 /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
 		FAF7634F2847594C00D20999 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FAF7635128475B7900D20999 /* Setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Setting.png; sourceTree = "<group>"; };
+		FAF7635228475B7900D20999 /* FruitsView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FruitsView.png; sourceTree = "<group>"; };
+		FAF7635328475B7900D20999 /* Detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Detail.png; sourceTree = "<group>"; };
+		FAF7635428475B7900D20999 /* Onbarding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Onbarding.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +73,10 @@
 		FAF763152845FBF100D20999 = {
 			isa = PBXGroup;
 			children = (
+				FAF7635328475B7900D20999 /* Detail.png */,
+				FAF7635228475B7900D20999 /* FruitsView.png */,
+				FAF7635428475B7900D20999 /* Onbarding.png */,
+				FAF7635128475B7900D20999 /* Setting.png */,
 				FAF7632F2846A40B00D20999 /* README.md */,
 				FAF763202845FBF100D20999 /* Fruits */,
 				FAF7631F2845FBF100D20999 /* Products */,
@@ -203,8 +215,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAF763302846A40B00D20999 /* README.md in Resources */,
+				FAF7635628475B7900D20999 /* FruitsView.png in Resources */,
+				FAF7635728475B7900D20999 /* Detail.png in Resources */,
 				FAF763292845FBF300D20999 /* Preview Assets.xcassets in Resources */,
+				FAF7635828475B7900D20999 /* Onbarding.png in Resources */,
 				FAF763262845FBF300D20999 /* Assets.xcassets in Resources */,
+				FAF7635528475B7900D20999 /* Setting.png in Resources */,
 				FAF763372846BDC500D20999 /* FruitsData.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
