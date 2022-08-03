@@ -1,11 +1,11 @@
 # Fruits
 Fruits
 
-Your application should have a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
+This application should have a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
 
-Your application should be deployed to GitHub Pages.
+This application should be deployed to GitHub Pages.
 
-Your application's GitHub repository should contain a README.md file explaining the purpose and functionality of the application. The README.md file should include a screenshot of the completed application as well as a link to the deployed GitHub Pages URL.
+This application's GitHub repository should contain a README.md file explaining the purpose and functionality of the application. The README.md file should include a screenshot of the completed application as well as a link to the deployed GitHub Pages URL.
 
 ![Image of Yaktocat](https://github.com/ShahriarHossainDev/Fruits/blob/main/Onbarding.png)
 
@@ -16,7 +16,7 @@ Your application's GitHub repository should contain a README.md file explaining 
 ![Image of Yaktocat](https://github.com/ShahriarHossainDev/Fruits/blob/main/Setting.png)
 
 
-## Onjectives
+## Objectives
 
 * How to develop an iOS 15 application with SwiftUI 2.0 framework
 * How to create an Onboarding Screen with Page Tab View
@@ -32,7 +32,7 @@ Your application's GitHub repository should contain a README.md file explaining 
 
 ## Commit Early and Often
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+One of the most important skills to master as a iOS developer is version control. Building the habit of committing via Git is important for two reasons:
 
 * Your commit history is a signal to employers that you are actively working on projects and learning new skills.
 
